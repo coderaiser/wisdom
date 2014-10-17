@@ -27,7 +27,6 @@
         } else {
             arg = args[0];
             
-            
             if (isNaN(version - 0))
                 version = arg.slice(1);
             else
