@@ -41,12 +41,12 @@
             
             data    = JSON.stringify(json, 0, 2) + '\n';
             
-            set(data, function() {
+            set(data, function(error) {
                 if (error)
                     console.error(error.message);
                 else
                     spawnify(cmd, function(error, json) {
-                        if (error || json.error)
+                        if (error || json.stderr)
                             console.error(error.message || json.stderr);
                         else
                             console.log(json.stdout);
