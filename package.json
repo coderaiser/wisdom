@@ -1,0 +1,19 @@
+{
+  "name": "publish-io",
+  "version": "0.1.0",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "Publish simpler then ever",
+  "homepage": "http://github.com/coderaiser/publish-io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/publish-io.git"
+  },
+  "dependencies": {
+    "util-io": "~1.4.0",
+    "spawnify": "~1.2.16"
+  },
+  "license": "MIT",
+  "bin": {
+    "publish": "bin/publish.js"
+  }
+}
