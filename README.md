@@ -1,7 +1,7 @@
 # Publish
 
 Publish is simpler then ever.
-One command insteed of five:
+One command insteed of six:
 
 ```sh
 git add package.json
