@@ -7,8 +7,8 @@ One command insteed of five:
 git add package.json
 git commit -m "feature(package) v{{ version }}"
 git push origin master
-git tag {{ version }}
-git push origin {{ version }}
+git tag v{{ version }}
+git push origin v{{ version }}
 npm publish
 ```
 
