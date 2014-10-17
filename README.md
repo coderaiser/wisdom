@@ -11,6 +11,10 @@ git push origin {{ version }}
 npm publish
 ```
 
+## Install
+
+`npm i publish-io -g`
+
 ## How to use?
 
 ```
