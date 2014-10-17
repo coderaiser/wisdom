@@ -46,8 +46,10 @@
                     console.error(error.message);
                 else
                     spawnify(cmd, function(error, json) {
-                        if (error || json.stderr)
-                            console.error(error.message || json.stderr);
+                        var err = error && error.message;
+                        
+                        if (err ||  json.stderr)
+                            console.error(err || json.stderr);
                         else
                             console.log(json.stdout);
                     });
