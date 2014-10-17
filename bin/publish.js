@@ -9,7 +9,8 @@
         
         args        = process.argv.slice(2),
         
-        Cmd         = [ 'git commit -am "feature(package) v{{ version }}"',
+        Cmd         = [ 'git add package.json',
+                        'git commit -m "feature(package) v{{ version }}"',
                         'git push origin master',
                         'git tag {{ version }}',
                         'git push origin {{ version }}',
