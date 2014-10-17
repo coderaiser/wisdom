@@ -22,7 +22,7 @@ npm publish
 publish # show version from package.json
 0.1.0
 
-publish 0.1.1 # update version in package.json to v0.1.1
+publish 0.1.1 # update version and publish
 ```
 
 ## License
