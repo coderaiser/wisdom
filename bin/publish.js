@@ -44,9 +44,9 @@
                 if (error)
                     console.error(error.message);
                 else
-                    spawnify(Cmd, function(error, json) {
+                    spawnify(cmd, function(error, json) {
                         if (error || json.error)
-                            console.error(error.message || json.error);
+                            console.error(error.message || json.stderr);
                         else
                             console.log(json.stdout);
                     });
