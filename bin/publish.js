@@ -33,7 +33,7 @@
             console.error('Version should be number.');
         } else {
             
-            if (isNaN(arg) - 0)
+            if (isNaN(arg[0]) - 0)
                 version = arg.slice(1);
             else
                 version = arg;
