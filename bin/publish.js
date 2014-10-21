@@ -15,20 +15,25 @@
                         'git tag v{{ version }}',
                         'git push origin v{{ version }}',
                         'npm publish'
-                    ].join('&&'),
-        version;
+                    ].join('&&');
     
     get(function(error, json) {
-        var data, arg, cmd;
+        var data, arg, cmd, version;
         
-        if (error)
+        arg = args[0];
+        
+        if (error) {
             console.error(error.message);
-        else if (!args.length) {
+        } else if (!args.length) {
             console.log(json.version);
+        } else if (arg === '-v' || arg === '---v') {
+            version = require('../package').version;
+            console.log('v' + version);
+        } else if (isNaN(arg[1] - 0)) {
+            console.error('Version should be number.');
         } else {
-            arg = args[0];
             
-            if (isNaN(version - 0))
+            if (isNaN(arg) - 0)
                 version = arg.slice(1);
             else
                 version = arg;
