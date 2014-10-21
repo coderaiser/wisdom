@@ -18,7 +18,7 @@
                     ].join('&&'),
         
         MSG         = [ 'publish <version>',
-                        'Current package: {{ name }} v{{ version }}'
+                        'package: {{ name }} v{{ version }}'
                     ].join('\n');
     
     get(function(error, json) {
