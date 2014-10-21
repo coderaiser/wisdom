@@ -15,7 +15,12 @@
                         'git tag v{{ version }}',
                         'git push origin v{{ version }}',
                         'npm publish'
-                    ].join('&&');
+                    ].join('&&'),
+        
+        MSG         = [ 'publish <version>',
+                        'example: publish v1.0.0',
+                        'current version: {{ version }}'
+                    ].join('\n');
     
     get(function(error, json) {
         var data, arg, cmd, version;
@@ -25,7 +30,9 @@
         if (error) {
             console.error(error.message);
         } else if (!args.length) {
-            console.log(json.version);
+            console.log(Util.render(MSG, {
+                version: json.version
+            }));
         } else if (arg === '-v' || arg === '---v') {
             version = require('../package').version;
             console.log('v' + version);
