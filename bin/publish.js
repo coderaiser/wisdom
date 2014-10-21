@@ -18,8 +18,7 @@
                     ].join('&&'),
         
         MSG         = [ 'publish <version>',
-                        'example: publish v1.0.0',
-                        'current version: {{ version }}'
+                        'Current package: {{ name }} v{{ version }}'
                     ].join('\n');
     
     get(function(error, json) {
@@ -31,7 +30,8 @@
             console.error(error.message);
         } else if (!args.length) {
             console.log(Util.render(MSG, {
-                version: json.version
+                name    : json.name,
+                version : json.version
             }));
         } else if (arg === '-v' || arg === '---v') {
             version = require('../package').version;
