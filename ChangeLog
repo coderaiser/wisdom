@@ -1,3 +1,9 @@
+2014.10.30, v0.2.4
+
+fix:
+- (publish) return error only if json.stderr || error occurs
+
+
 2014.10.30, v0.2.3
 
 fix:
