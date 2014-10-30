@@ -4,7 +4,9 @@ Publish is simpler then ever.
 One command insteed of six:
 
 ```sh
+changelog {{version}}
 git add package.json
+git add ChangeLog
 git commit -m "feature(package) v{{ version }}"
 git push origin master
 git tag v{{ version }}
