@@ -3,8 +3,7 @@
 (function() {
     'use strict';
     
-    var fs          = require('fs'),
-        spawnify    = require('spawnify'),
+    var spawnify    = require('spawnify'),
         Util        = require('util-io'),
         tryRequire  = require('tryrequire'),
         
