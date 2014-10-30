@@ -11,6 +11,7 @@
         args        = process.argv.slice(2),
         
         Cmd         = [ 'npm version {{ version }} -m "feature(package) v%s"',
+                        'git push origin master',
                         'npm publish'
                     ].join('&&'),
         
