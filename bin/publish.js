@@ -19,23 +19,23 @@
                         'package: {{ name }} v{{ version }}'
                     ].join('\n'),
                     
-        Info        = tryRequire('./package'),
+        Info        = tryRequire(process.cwd() + '/package'),
         
         arg, cmd, version;
         
         arg = args[0];
         
-        if (!args.length) {
-            console.log(Util.render(MSG, {
-                name    : Info.name,
-                version : Info.version
-            }));
-        } else if (arg === '-v' || arg === '--v') {
+        if (arg === '-v' || arg === '--v') {
             version = require('../package').version;
             console.log('v' + version);
         } else if (!Info)
             console.error('package.json not found.');
-        else {
+        else if (!args.length) {
+            console.log(Util.render(MSG, {
+                name    : Info.name,
+                version : Info.version
+            }));
+        } else {
             if (arg[0] === 'v')
                 version = arg.slice(1);
             else
