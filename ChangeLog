@@ -1,3 +1,9 @@
+2014.10.30, v0.4.0
+
+feature:
+- (publish) exec -> spawnify
+
+
 2014.10.30, v0.3.1
 
 fix:
