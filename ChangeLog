@@ -1,0 +1,4 @@
+2014.10.30, v0.2.1
+
+feature:
+- (publish) change package.json, git tag -> npm version
