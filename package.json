@@ -9,8 +9,9 @@
     "url": "git://github.com/coderaiser/publish-io.git"
   },
   "dependencies": {
+    "spawnify": "~1.2.16",
     "util-io": "~1.4.0",
-    "spawnify": "~1.2.16"
+    "tryrequire": "~1.0.0"
   },
   "license": "MIT",
   "bin": {
