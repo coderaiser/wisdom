@@ -4,6 +4,10 @@
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Publish simpler then ever.",
   "homepage": "http://github.com/coderaiser/publish-io",
+  "main": "lib/publish.js",
+  "bin": {
+    "publish": "bin/publish.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/publish-io.git"
@@ -13,8 +17,5 @@
     "util-io": "~1.4.0",
     "tryrequire": "~1.0.0"
   },
-  "license": "MIT",
-  "bin": {
-    "publish": "bin/publish.js"
-  }
+  "license": "MIT"
 }
