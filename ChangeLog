@@ -1,3 +1,9 @@
+2014.10.30, v0.4.1
+
+fix:
+- (publish) push tag after creating
+
+
 2014.10.30, v0.4.0
 
 feature:
