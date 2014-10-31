@@ -1,8 +1,15 @@
 # Publish
 
 Publish is simpler then ever.
-One command insteed of:
 
+One command do next things:
+-  [changelog](http://github.com/coderaiser/changelog-io "ChangeLog");
+-  [version](http://github.com/coderaiser/changelog-io "Version");
+- tag;
+- push to github;
+- publish to npm;
+
+Here is list of commands that should be executed to get same result:
 ```sh
 changelog {{ version }}
 version {{ version }}
