@@ -4,7 +4,7 @@ Publish is simpler then ever.
 
 One command do next things:
 -  [changelog](http://github.com/coderaiser/changelog-io "ChangeLog");
--  [version](http://github.com/coderaiser/changelog-io "Version");
+-  [version](http://github.com/coderaiser/version-io "Version");
 - tag;
 - push to github;
 - publish to npm;
