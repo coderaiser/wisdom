@@ -22,7 +22,7 @@
                 console.log(data);
             });
             
-            pub.on('end', function() {
+            pub.on('exit', function() {
                 pub = null;
             });
        }
