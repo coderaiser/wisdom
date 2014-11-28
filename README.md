@@ -6,6 +6,7 @@ One command do next things:
 -  [changelog](http://github.com/coderaiser/changelog-io "ChangeLog");
 -  [version](http://github.com/coderaiser/version-io "Version");
 - tag;
+-  [release on github](https://github.com/coderaiser/node-grizzly "Grizzly");
 - push to github;
 - publish to npm;
 
