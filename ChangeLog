@@ -1,4 +1,11 @@
 changelog: done
+2014.11.28, v0.5.5
+
+fix:
+- (publish) name -> info.name
+
+
+changelog: done
 2014.11.28, v0.5.4
 
 feature:
