@@ -1,3 +1,9 @@
+2014.11.28, v0.5.15
+
+fix:
+- (publish) getRepoName
+
+
 2014.11.28, v0.5.14
 
 feature:
