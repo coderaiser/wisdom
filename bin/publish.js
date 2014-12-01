@@ -3,27 +3,51 @@
 (function() {
     'use strict';
     
-    var publish         = require('../lib/publish'),
+    var publish         = require('..'),
         args            = process.argv.slice(2),
-        arg             = args[0],
-        pub, version;
+        arg             = args[0];
         
-        if (arg === '-v' || arg === '--v') {
-            version = require('../package').version;
-            console.log('v' + version);
-       } else {
-            pub = publish(arg);
+    if (/-v|--v/.test(arg))
+        version();
+    else if (!arg || /-h|--help/)
+        help();
+    else
+        main();
+       
+    function main() {
+        var pub = publish(arg);
             
-            pub.on('error', function(error) {
-                console.error(error.message);
-            });
+        pub.on('error', function(error) {
+            console.error(error.message);
+        });
+        
+        pub.on('data', function(data) {
+            console.log(data);
+        });
+        
+        pub.on('exit', function() {
+            pub = null;
+        });
+    }
+       
+    function version() {
+        console.log('v' + info().version);
+    }
+    
+    function info() {
+        return require('../package');
+    }
+    
+    function help() {
+        var bin         = require('../json/bin'),
+            usage       = 'Usage: ' + info().name + ' [version|minor|major|patch]';
             
-            pub.on('data', function(data) {
-                console.log(data);
-            });
-            
-            pub.on('exit', function() {
-                pub = null;
-            });
-       }
+        console.log(usage);
+        console.log('Options:');
+        
+        Object.keys(bin).forEach(function(name) {
+            var line = '  ' + name + ' ' + bin[name];
+            console.log(line);
+        });
+    }
 })();
