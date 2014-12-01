@@ -18,6 +18,9 @@ git add package.json
 git add ChangeLog
 git commit -m "feature(package) v{{ version }}"
 git push origin master
+grizzly -tn "token from url" \
+-r grizzly -o {{ owner }} -t {{ version }} \
+-n "{{ repo }} {{ version }}" -b "changelog"
 git tag v{{ version }}
 git push origin v{{ version }}
 npm publish
