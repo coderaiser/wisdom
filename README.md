@@ -33,13 +33,11 @@ npm publish
 ## How to use?
 
 ```
-publish # show version from package.json
-0.1.0
-
-publish 0.1.1 # update version and publish
-publish patch
-publish minor
-publish major
+$ publish
+Usage: publish [version|major|minor|patch]
+Options:
+-h, --help     : display this help and exit,
+-v, --version  : output version information and exit,
 ```
 
 ## License
