@@ -9,7 +9,7 @@
         
     if (/-v|--v/.test(arg))
         version();
-    else if (!arg || /-h|--help/)
+    else if (!arg || /-h|--help/.test(arg))
         help();
     else
         main();
