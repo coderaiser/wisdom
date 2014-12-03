@@ -1,3 +1,9 @@
+2014.12.03, v0.6.2
+
+feature:
+- (publish) getOwner: json.author -> json.repository.url
+
+
 2014.12.02, v0.6.1
 
 fix:
