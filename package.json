@@ -19,8 +19,8 @@
     "minor": "~1.2.0",
     "prepend": "~1.0.1",
     "readjson": "~1.0.0",
+    "rendy": "~1.0.0",
     "spawnify": "~1.6.0",
-    "util-io": "~1.6.0",
     "version-io": "~1.0.0"
   },
   "license": "MIT"
