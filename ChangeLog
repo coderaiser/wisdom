@@ -1,3 +1,9 @@
+2015.01.14, v0.7.0
+
+feature:
+- (publish) speed up: npm publish and github release is parallel
+
+
 2015.01.14, v0.6.6
 
 fix:
