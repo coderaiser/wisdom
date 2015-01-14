@@ -1,3 +1,9 @@
+2015.01.14, v0.7.1
+
+fix:
+- (publish) -v* show version if parameter is differ
+
+
 2015.01.14, v0.7.0
 
 feature:
