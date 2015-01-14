@@ -7,9 +7,9 @@
         args            = process.argv.slice(2),
         arg             = args[0];
         
-    if (/-v|--v/.test(arg))
+    if (/^(-v|--v)$/.test(arg))
         version();
-    else if (!arg || /-h|--help/.test(arg))
+    else if (!arg || /^(-h|--help)$/.test(arg))
         help();
     else
         main();
