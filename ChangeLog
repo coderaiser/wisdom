@@ -1,3 +1,15 @@
+2015.01.14, v0.7.3
+
+fix:
+- (publish) -v* show version if parameter is differ
+
+feature:
+- (publish) separate "git push" to another task
+- (package) v0.7.2
+- (publish) execute: add rejected check
+- (package) v0.7.1
+
+
 2015.01.14, v0.7.2
 
 feature:
