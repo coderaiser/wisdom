@@ -1,3 +1,9 @@
+2015.01.14, v0.6.6
+
+fix:
+- (publish) create release on github before tag created
+
+
 2014.12.24, v0.6.5
 
 feature:
