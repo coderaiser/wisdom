@@ -21,7 +21,7 @@
     "readjson": "~1.0.0",
     "rendy": "~1.0.0",
     "spawnify": "~1.10.1",
-    "version-io": "~1.0.0"
+    "version-io": "~1.1.0"
   },
   "license": "MIT"
 }
