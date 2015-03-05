@@ -1,3 +1,9 @@
+2015.03.05, v1.0.0
+
+feature:
+- (publish) when need pull, pull before release
+
+
 2015.03.04, v0.10.0
 
 feature:
