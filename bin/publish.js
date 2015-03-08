@@ -3,8 +3,7 @@
 (function() {
     'use strict';
     
-    var publish         = require('..'),
-        args            = process.argv.slice(2),
+    var args            = process.argv.slice(2),
         arg             = args[0];
         
     if (/^(-v|--v)$/.test(arg))
@@ -15,7 +14,8 @@
         main();
        
     function main() {
-        var pub = publish(arg);
+        var publish = require('..'),
+            pub     = publish(arg);
             
         pub.on('error', function(error) {
             console.error(error.message);
