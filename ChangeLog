@@ -1,3 +1,9 @@
+2015.03.16, v1.2.4
+
+fix:
+- (publish) stop when error in scripts/publish-io
+
+
 2015.03.16, v1.2.3
 
 feature:
