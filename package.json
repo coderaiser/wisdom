@@ -1,17 +1,18 @@
 {
-  "name": "publish-io",
+  "name": "wisdom",
   "version": "1.2.4",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Publish simpler then ever.",
-  "homepage": "http://github.com/coderaiser/publish-io",
+  "homepage": "http://github.com/coderaiser/wisdom",
   "main": "lib/publish.js",
   "bin": {
-    "publish": "bin/publish.js"
+    "wisdom": "bin/wisdom.js",
+    "publish": "bin/wisdom.js"
   },
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/publish-io.git"
+    "url": "git://github.com/coderaiser/wisdom.git"
   },
   "dependencies": {
     "async": "~0.9.0",

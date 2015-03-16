@@ -1,4 +1,4 @@
-# Publish
+# Wisdom
 
 Publish is simpler then ever.
 
@@ -33,8 +33,8 @@ npm publish
 ## How to use?
 
 ```
-$ publish
-Usage: publish [version|major|minor|patch]
+$ wisdom
+Usage: wisdom [version|major|minor|patch]
 Options:
 -h, --help     : display this help and exit,
 -v, --version  : output version information and exit,
@@ -48,11 +48,10 @@ you could specify in `scripts` section of `package.json` command:
 ```js
 {
     "scripts": {
-        "publish-io": "echo 'do something before publish'"
+        "wisdom": "echo 'do something before publish'"
     }
 }
 ```
-
 
 ## License
 
