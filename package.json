@@ -10,7 +10,8 @@
     "publish": "bin/wisdom.js"
   },
   "scripts": {
-      "postpublish": "npm i wisdom -g"
+      "postpublish": "npm i wisdom -g",
+      "wisdom": "echo"
   },
   "repository": {
     "type": "git",
