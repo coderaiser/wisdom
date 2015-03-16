@@ -1,3 +1,11 @@
+2015.03.16, v1.3.1
+
+feature:
+- (wisdom) add runWisdom
+- (package) v1.3.0
+- (wisdom) add ability to set parameters to scripts.wisdom
+
+
 2015.03.16, v1.3.0
 
 fix:
