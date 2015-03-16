@@ -3,10 +3,11 @@
 Publish is simpler then ever.
 
 One command do next things:
--  [changelog](http://github.com/coderaiser/changelog-io "ChangeLog");
--  [version](http://github.com/coderaiser/version-io "Version") in `package.json` and `bower.json` (if exist);
+- run command from `scripts.wisdom` of `package.json` (if exist); 
+- [changelog](http://github.com/coderaiser/changelog-io "ChangeLog");
+- [version](http://github.com/coderaiser/version-io "Version") in `package.json` and `bower.json` (if exist);
 - tag;
--  [release on github](https://github.com/coderaiser/node-grizzly "Grizzly");
+- [release on github](https://github.com/coderaiser/node-grizzly "Grizzly");
 - push to github;
 - publish to npm;
 
