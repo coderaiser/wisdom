@@ -1,3 +1,13 @@
+2015.03.16, v1.3.2
+
+fix:
+- (wisdom) ChangeLog created after commit
+
+feature:
+- (package) v1.3.1
+- (wisdom) add runWisdom
+
+
 2015.03.16, v1.3.1
 
 feature:
