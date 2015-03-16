@@ -28,7 +28,7 @@ npm publish
 
 ## Install
 
-`npm i publish-io -g`
+`npm i wisdom -g`
 
 ## How to use?
 
