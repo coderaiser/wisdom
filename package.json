@@ -9,7 +9,6 @@
     "publish": "bin/publish.js"
   },
   "scripts": {
-    "publish-io": "echo 'before publish'"
   },
   "repository": {
     "type": "git",
