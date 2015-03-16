@@ -40,6 +40,20 @@ Options:
 -v, --version  : output version information and exit,
 ```
 
+## Before publish
+
+When you need some tasks was done before publish
+you could specify in `scripts` section of `package.json` command:
+
+```js
+{
+    "scripts": {
+        "publish-io": "echo 'do something before publish'"
+    }
+}
+```
+
+
 ## License
 
 MIT
