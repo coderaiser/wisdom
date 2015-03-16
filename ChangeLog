@@ -1,3 +1,10 @@
+2015.03.16, v1.2.3
+
+feature:
+- (package) scripts: rm publish-io
+- (publish) change steps order: changelog, publish-io
+
+
 2015.03.16, v1.2.2
 
 fix:

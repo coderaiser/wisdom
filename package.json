@@ -1,6 +1,6 @@
 {
   "name": "publish-io",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Publish simpler then ever.",
   "homepage": "http://github.com/coderaiser/publish-io",
@@ -8,8 +8,7 @@
   "bin": {
     "publish": "bin/publish.js"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/publish-io.git"
