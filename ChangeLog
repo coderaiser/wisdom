@@ -1,3 +1,13 @@
+2015.03.16, v1.3.0
+
+fix:
+- (wisdom) publish-io -> wisdom
+
+feature:
+- (wisdom) add ability to set parameters to scripts.wisdom
+- (package) scripts: postpublish
+
+
 2015.03.16, v1.2.6
 
 fix:
