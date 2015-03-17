@@ -1,3 +1,14 @@
+2015.03.17, v1.3.3
+
+fix:
+- (wisdom) ChangeLog created after commit
+
+feature:
+- (wisdom) set run scripts.wisdom before changelog
+- (wisdom) before publish event: exit -> close
+- (package) v1.3.2
+
+
 2015.03.16, v1.3.2
 
 fix:
