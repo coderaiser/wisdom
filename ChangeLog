@@ -1,3 +1,12 @@
+2015.03.28, v1.3.4
+
+feature:
+- (package) version v1.2.0
+- (package) v1.3.3
+- (wisdom) set run scripts.wisdom before changelog
+- (wisdom) before publish event: exit -> close
+
+
 2015.03.17, v1.3.3
 
 fix:
