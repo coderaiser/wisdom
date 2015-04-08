@@ -50,7 +50,8 @@ you could specify in options in `package.json` command:
 
 ```js
 {
-    "changelog" true, /* default */
+    "changelog": true, /* default */
+    "release": true, /* default */
     "scripts": {
         "wisdom": "echo 'do something before publish'"
     }
