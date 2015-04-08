@@ -1,3 +1,13 @@
+2015.04.08, v1.5.0
+
+fix:
+- (wisdom) changelog is overwrited
+
+feature:
+- (wisdom) add ability to read release options from package.json
+- (package) v1.4.1
+
+
 2015.04.08, v1.4.1
 
 fix:
