@@ -1,3 +1,9 @@
+2015.04.08, v1.4.0
+
+feature:
+- (wisdom) add support of changelog option in package.json
+
+
 2015.03.28, v1.3.4
 
 feature:
