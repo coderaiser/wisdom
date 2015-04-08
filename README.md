@@ -44,10 +44,11 @@ Options:
 ## Before publish
 
 When you need some tasks was done before publish
-you could specify in `scripts` section of `package.json` command:
+you could specify in options in `package.json` command:
 
 ```js
 {
+    "changelog" true, /* default */
     "scripts": {
         "wisdom": "echo 'do something before publish'"
     }
