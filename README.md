@@ -33,6 +33,8 @@ npm publish
 
 ## How to use?
 
+You could use one of names you prefer more: `wisdom` or `publish`.
+
 ```
 $ wisdom
 Usage: wisdom [version|major|minor|patch]
