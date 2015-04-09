@@ -52,6 +52,7 @@ you could specify in options in `package.json` command:
 {
     "changelog": true, /* default */
     "release": true, /* default */
+    "branch": "master" /* default */
     "scripts": {
         "wisdom": "echo 'do something before publish'"
     }
