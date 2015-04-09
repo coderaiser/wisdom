@@ -1,3 +1,9 @@
+2015.04.09, v1.8.1
+
+fix:
+- (wisdom) npmPublish: callback -> info, emitter, callback
+
+
 2015.04.09, v1.8.0
 
 feature:
