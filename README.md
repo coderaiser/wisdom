@@ -1,6 +1,6 @@
 # Wisdom
 
-Publish is simpler then ever.
+Tool for publishing releases to github and npm.
 
 One command do next things:
 - run command from `scripts.wisdom` of `package.json` (if exist); 
