@@ -2,7 +2,7 @@
   "name": "wisdom",
   "version": "1.9.0",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
-  "description": "Publish simpler then ever.",
+  "description": "Tool for publishing releases to github and npm",
   "homepage": "http://github.com/coderaiser/wisdom",
   "main": "lib/wisdom.js",
   "bin": {
