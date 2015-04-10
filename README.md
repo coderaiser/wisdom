@@ -15,10 +15,9 @@ Here is list of commands that should be executed to get same result:
 ```sh
 changelog {{ version }}
 version {{ version }}
-git add package.json
-git add ChangeLog
+git add -all
 git commit -m "feature(package) v{{ version }}"
-git push origin master
+git push origin {{ branch }}
 git tag v{{ version }}
 git push origin v{{ version }}
 grizzly -tn "token from url" \
