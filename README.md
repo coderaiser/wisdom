@@ -38,8 +38,8 @@ You could use one of names you prefer more: `wisdom` or `publish`.
 $ wisdom
 Usage: wisdom [version|major|minor|patch]
 Options:
--h, --help     : display this help and exit,
--v, --version  : output version information and exit,
+-h, --help     : display this help and exit
+-v, --version  : output version information and exit
 ```
 
 ## Before publish
