@@ -1,3 +1,9 @@
+2015.06.22, v1.9.7
+
+feature:
+- (package) readjson v1.1.0
+
+
 2015.06.08, v1.9.6
 
 fix:
