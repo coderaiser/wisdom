@@ -1,3 +1,9 @@
+2015.07.04, v2.0.0
+
+feature:
+- (wisdom) console -> process.stdout/stderr
+
+
 2015.06.29, v1.9.8
 
 feature:
