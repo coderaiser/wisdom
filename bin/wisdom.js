@@ -18,11 +18,11 @@
             pub     = publish(arg);
             
         pub.on('error', function(error) {
-            console.error(error.message);
+            process.stderr.write(error.message);
         });
         
         pub.on('data', function(data) {
-            console.log(data);
+            process.stdout.write(data);
         });
         
         pub.on('exit', function() {
