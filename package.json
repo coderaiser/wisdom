@@ -11,7 +11,8 @@
   },
   "scripts": {
     "postpublish": "npm i -g",
-    "wisdom": "echo"
+    "wisdom": "echo",
+    "nupdate": "nupdate"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,8 @@
     "spawnify": "~2.0.0",
     "version-io": "~1.2.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nupdate": "~1.0.11"
+  }
 }
