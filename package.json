@@ -32,6 +32,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "nupdate": "~2.0.0"
+    "nupdate": "^2.1.1"
   }
 }
