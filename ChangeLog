@@ -1,3 +1,11 @@
+2015.11.24, v2.2.0
+
+feature:
+- feature(wisdom) help: rm outdated param "version"
+- feature(package) nupdate v2.1.1
+- feature(package) nupdate v2.0.0
+
+
 2015.10.26, v2.1.5
 
 feature:
