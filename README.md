@@ -36,7 +36,7 @@ You could use one of names you prefer more: `wisdom` or `publish`.
 
 ```
 $ wisdom
-Usage: wisdom [version|major|minor|patch]
+Usage: wisdom [patch|major|minor]
 Options:
 -h, --help     : display this help and exit
 -v, --version  : output version information and exit

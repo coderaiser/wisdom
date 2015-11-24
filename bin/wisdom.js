@@ -40,7 +40,7 @@
     
     function help() {
         var bin         = require('../json/bin'),
-            usage       = 'Usage: ' + info().name + ' [version|minor|major|patch]';
+            usage       = 'Usage: ' + info().name + ' [patch|minor|major]';
             
         console.log(usage);
         console.log('Options:');
