@@ -36,7 +36,7 @@ You could use one of names you prefer more: `wisdom` or `publish`.
 
 ```
 $ wisdom
-Usage: wisdom [patch|major|minor]
+Usage: wisdom [patch|minor|major]
 Options:
 -h, --help     : display this help and exit
 -v, --version  : output version information and exit
@@ -44,13 +44,12 @@ Options:
 
 ## Before publish
 
-When you need some tasks was done before publish
-you could specify in options in `package.json` command:
+When you need configure `wisdom` you could declare them in `package.json`:
 
 ```js
 {
     "changelog": true, /* default */
-    "release": true, /* default */
+    "release": true,   /* default */
     "branch": "master" /* default */
     "scripts": {
         "wisdom": "echo 'do something before publish'"
