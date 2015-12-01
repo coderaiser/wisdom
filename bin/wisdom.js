@@ -10,6 +10,8 @@
         version();
     else if (!arg || /^(-h|--help)$/.test(arg))
         help();
+    else if (!/^(patch|minor|major)$/.test(arg))
+        console.error('\'%s\' is not a wisdom option. See \'wisdom --help\'', arg);
     else
         main();
        
