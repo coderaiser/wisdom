@@ -1,3 +1,10 @@
+2015.12.01, v2.3.0
+
+feature:
+- feature(wisdom) add filtering of unsupported command line parameters
+- feature(wisdom) changelog: add "\n" on error
+
+
 2015.11.24, v2.2.0
 
 feature:
