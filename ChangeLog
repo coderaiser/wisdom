@@ -1,3 +1,12 @@
+2016.02.01, v2.3.1
+
+fix:
+- (wisdom) markdown: add word boundaries
+
+feature:
+- (package) nupdate v3.0.0
+
+
 2015.12.01, v2.3.0
 
 feature:
