@@ -53,7 +53,7 @@ When you need configure `wisdom` you could declare them in `package.json`:
     "branch": "master" /* default */
     "scripts": {
         "wisdom": "echo 'do something before publish'",
-        "postwisdom": "echo 'do something after publish'"
+        "wisdom:done": "echo 'do something after publish'"
     }
 }
 ```
