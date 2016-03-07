@@ -1,3 +1,9 @@
+2016.03.07, v2.4.1
+
+fix:
+- fix(wisdom) npm publish
+
+
 2016.03.07, v2.4.0
 
 feature:
