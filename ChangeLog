@@ -1,3 +1,11 @@
+2016.03.07, v2.5.0
+
+feature:
+- feature(package) rm publish
+- feature(wisdom) postwisdom -> wisdom:done
+- feature(wisdom) postwisdom -> wisdom:done
+
+
 2016.03.07, v2.4.2
 
 feature:
