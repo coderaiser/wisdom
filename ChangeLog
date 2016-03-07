@@ -1,3 +1,9 @@
+2016.03.07, v2.4.2
+
+feature:
+- feature(package) postpublish -> postwisdom
+
+
 2016.03.07, v2.4.1
 
 fix:
