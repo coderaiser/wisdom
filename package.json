@@ -6,8 +6,7 @@
   "homepage": "http://github.com/coderaiser/wisdom",
   "main": "lib/wisdom.js",
   "bin": {
-    "wisdom": "bin/wisdom.js",
-    "publish": "bin/wisdom.js"
+    "wisdom": "bin/wisdom.js"
   },
   "scripts": {
     "wisdom:done": "npm i -g",
