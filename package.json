@@ -10,7 +10,7 @@
     "publish": "bin/wisdom.js"
   },
   "scripts": {
-    "postwisdom": "npm i -g",
+    "wisdom:done": "npm i -g",
     "wisdom": "echo",
     "nupdate": "nupdate"
   },
