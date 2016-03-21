@@ -1,3 +1,9 @@
+2016.03.21, v2.5.4
+
+fix:
+- fix(package) async
+
+
 2016.03.21, v2.5.3
 
 feature:
