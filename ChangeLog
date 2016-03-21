@@ -1,3 +1,10 @@
+2016.03.21, v2.5.3
+
+feature:
+- feature(package) ~ -> ^
+- feature(package) async v2.0.0
+
+
 2016.03.17, v2.5.2
 
 feature:
