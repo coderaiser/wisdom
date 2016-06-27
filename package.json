@@ -20,7 +20,7 @@
   "dependencies": {
     "async": "^2.0.0-rc.1",
     "changelog-io": "^1.4.0",
-    "grizzly": "^1.0.6",
+    "grizzly": "^2.0.0",
     "jessy": "^1.0.1",
     "minor": "^1.2.0",
     "prepend": "^1.0.1",
