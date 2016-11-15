@@ -26,7 +26,7 @@
     "prepend": "^1.0.1",
     "readjson": "^1.1.0",
     "rendy": "^1.1.0",
-    "spawnify": "^2.3.0",
+    "spawnify": "^3.0.0",
     "version-io": "^1.2.0",
     "writejson": "^1.1.1"
   },
