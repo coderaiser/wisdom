@@ -1,6 +1,6 @@
 {
   "name": "wisdom",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Tool for publishing releases to github and npm",
   "homepage": "http://github.com/coderaiser/wisdom",
@@ -21,7 +21,6 @@
     "6to5:lib": "babel lib -d legacy/lib",
     "6to5:bin": "babel bin -d legacy/bin",
     "legacy:index": "echo \"module.exports = require('./lib/wisodm');\" > legacy/index.js",
-    "legacy:json": "cp -r json legacy/",
     "legacy:json": "echo \"module.exports = require('../package');\" > legacy/package.js",
     "build": "redrun 6to5:* legacy:*",
     "wisdom": "npm run build; echo $wisdom_version",
