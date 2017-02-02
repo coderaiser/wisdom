@@ -3,9 +3,10 @@
 Tool for publishing releases to github and npm according to [Semantic Versionin](http://semver.org "Semantic Versioning").
 
 One command do next things:
-- run command from `scripts.wisdom` of `package.json` (if exist); 
+- set env variable `$WISDOM_VERSION` with future version
+- run command from `scripts.wisdom` of `package.json` (if exist);
 - [changelog](http://github.com/coderaiser/changelog-io "ChangeLog");
-- [version](http://github.com/coderaiser/version-io "Version") in `package.json` and `bower.json` (if exist);
+- [version](http://github.com/coderaiser/version-io "Version") in `package.json`;
 - tag;
 - [release on github](https://github.com/coderaiser/node-grizzly "Grizzly");
 - push to github;
@@ -31,8 +32,6 @@ npm publish
 `npm i wisdom -g`
 
 ## How to use?
-
-You could use one of names you prefer more: `wisdom` or `publish`.
 
 ```
 $ wisdom
