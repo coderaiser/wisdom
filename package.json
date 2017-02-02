@@ -10,7 +10,7 @@
   },
   "scripts": {
     "wisdom:done": "npm i -g",
-    "wisdom": "echo $WISDOM_VERSION",
+    "wisdom": "echo $wisdom_version",
     "nupdate": "nupdate"
   },
   "repository": {
