@@ -21,6 +21,8 @@
     "6to5:lib": "babel lib -d legacy/lib",
     "6to5:bin": "babel bin -d legacy/bin",
     "legacy:index": "echo \"module.exports = require('./lib/wisodm');\" > legacy/index.js",
+    "legacy:json": "cp -r json legacy/",
+    "legacy:json": "echo \"module.exports = require('../package');\" > legacy/package.js",
     "build": "redrun 6to5:* legacy:*",
     "wisdom": "npm run build; echo $wisdom_version",
     "wisdom:done": "npm i -g",
