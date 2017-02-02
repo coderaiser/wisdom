@@ -11,7 +11,10 @@
   "scripts": {
     "wisdom:done": "npm i -g",
     "wisdom": "echo $wisdom_version",
-    "nupdate": "nupdate"
+    "nupdate": "nupdate",
+    "lint": "redrun lint:*",
+    "lint:eslint": "eslint lib",
+    "lint:eslint:bin": "eslint --rule 'no-console:0' bin"
   },
   "repository": {
     "type": "git",
@@ -32,6 +35,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "nupdate": "^3.0.0"
+    "eslint": "^3.14.1",
+    "redrun": "^5.9.6"
   }
 }
