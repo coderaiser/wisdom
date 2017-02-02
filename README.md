@@ -1,4 +1,4 @@
-# Wisdom
+# Wisdom [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
 Tool for publishing releases to github and npm according to [Semantic Versionin](http://semver.org "Semantic Versioning").
 
@@ -57,6 +57,25 @@ When you need configure `wisdom` you could declare them in `package.json`:
 }
 ```
 
+## Environments
+
+In old `node.js` environments that supports `es5` only, `wisdom` could be used as `wisdom_`,
+or programmaticly with:
+
+```js
+var wisdom = require('wisdom/legacy');
+```
+
 ## License
 
 MIT
+
+[NPMIMGURL]:                https://img.shields.io/npm/v/wisdom.svg?style=flat
+[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/wisdom/master.svg?style=flat
+[DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/coderaiser/wisdom.svg?style=flat
+[LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
+[NPMURL]:                   https://npmjs.org/package/wisdom "npm"
+[BuildStatusURL]:           https://travis-ci.org/coderaiser/wisdom  "Build Status"
+[DependencyStatusURL]:      https://gemnasium.com/coderaiser/wisdom "Dependency Status"
+[LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
+
