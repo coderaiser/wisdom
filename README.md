@@ -3,7 +3,7 @@
 Tool for publishing releases to github and npm according to [Semantic Versionin](http://semver.org "Semantic Versioning").
 
 One command do next things:
-- set env variable `$wisdom_version` with future version
+- set env variable `$wisdom_version` and `$WISDOM_VERSION` with future version
 - run command from `scripts.wisdom` of `package.json` (if exist);
 - [changelog](http://github.com/coderaiser/changelog-io "ChangeLog");
 - [version](http://github.com/coderaiser/version-io "Version") in `package.json`;
