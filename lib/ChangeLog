@@ -1,0 +1,5 @@
+2017.05.18, v5.0.0
+
+feature:
+- (wisdom) drop support of node < 4
+
