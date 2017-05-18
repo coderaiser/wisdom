@@ -57,15 +57,6 @@ When you need configure `wisdom` you could declare them in `package.json`:
 }
 ```
 
-## Environments
-
-In old `node.js` environments that supports `es5` only, `wisdom` could be used as `wisdom_`,
-or programmaticly with:
-
-```js
-var wisdom = require('wisdom/legacy');
-```
-
 ## License
 
 MIT
