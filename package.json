@@ -10,7 +10,7 @@
   },
   "scripts": {
     "wisdom": "echo $wisdom_version",
-    "wisdom:done": "npm i -g",
+    "wisdom:done": "npm i wisdom -g",
     "lint": "redrun lint:*",
     "lint:eslint": "eslint lib",
     "lint:eslint:bin": "eslint --rule 'no-console:0' bin"
