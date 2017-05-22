@@ -1,3 +1,12 @@
+2017.05.22, v5.0.1
+
+fix:
+- (wisdom) ChangeLog path
+
+feature:
+- (package) version-io v2.0.1
+
+
 2017.05.18, v5.0.0
 
 feature:
