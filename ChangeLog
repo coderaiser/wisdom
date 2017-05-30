@@ -1,3 +1,10 @@
+2017.05.30, v5.1.1
+
+feature:
+- (wisdom) rm tag: has no sence, becouse of private
+- (travis) node_js: 7 -> 8
+
+
 2017.05.30, v5.1.0
 
 fix:
