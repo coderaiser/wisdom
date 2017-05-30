@@ -1,3 +1,13 @@
+2017.05.30, v5.1.0
+
+fix:
+- (wisdom) run npm publish from directory where package.json stored
+
+feature:
+- (wisdom) add tag support
+- (wisdom) rm unused readjson, writejson
+
+
 2017.05.23, v5.0.3
 
 fix:
