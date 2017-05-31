@@ -1,3 +1,9 @@
+2017.05.31, v5.1.2
+
+fix:
+- (wisdom) getRepoName
+
+
 2017.05.30, v5.1.1
 
 feature:
