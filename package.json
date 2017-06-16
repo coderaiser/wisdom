@@ -40,7 +40,7 @@
     "node": ">=4"
   },
   "devDependencies": {
-    "eslint": "^3.14.1",
+    "eslint": "^4.0.0",
     "redrun": "^5.9.6"
   }
 }
