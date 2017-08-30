@@ -1,3 +1,9 @@
+2017.08.30, v6.0.0
+
+feature:
+- (wisdom) do not add type argument to scripts.wisdom
+
+
 2017.08.30, v5.2.1
 
 fix:
