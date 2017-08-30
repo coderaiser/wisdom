@@ -5,6 +5,7 @@ Tool for publishing releases to github and npm according to [Semantic Versionin]
 One command do next things:
 - set env variable `$wisdom_version` and `$WISDOM_VERSION` with future version
 - run command from `scripts.wisdom` of `package.json` (if exist);
+- run command from `scripts.wisdom:type` of `package.json` (if exist);
 - [changelog](http://github.com/coderaiser/changelog-io "ChangeLog");
 - [version](http://github.com/coderaiser/version-io "Version") in `package.json`;
 - tag;
@@ -44,7 +45,7 @@ Options:
 -v, --version  : output version information and exit
 ```
 
-## Before publish
+## Configuration
 
 When you need configure `wisdom` you could declare them in `package.json`:
 
