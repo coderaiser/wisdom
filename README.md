@@ -55,6 +55,7 @@ When you need configure `wisdom` you could declare them in `package.json`:
     "branch": "master" /* default */
     "scripts": {
         "wisdom": "echo 'do something before publish'",
+        "wisdom:type": "echo 'do something before publish and add --patch, --minor or --major argument'",
         "wisdom:done": "echo 'do something after publish'"
     }
 }
