@@ -41,6 +41,6 @@
   },
   "devDependencies": {
     "eslint": "^4.0.0",
-    "redrun": "^5.9.6"
+    "redrun": "^5.9.16"
   }
 }
