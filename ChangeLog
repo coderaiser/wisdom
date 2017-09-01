@@ -1,3 +1,10 @@
+2017.09.01, v6.0.3
+
+feature:
+- (run-wisdom) rm unused path
+- (package) runWisdom: add envir
+
+
 2017.08.31, v6.0.2
 
 feature:
