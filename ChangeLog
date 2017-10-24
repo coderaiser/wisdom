@@ -1,3 +1,11 @@
+2017.10.24, v6.0.4
+
+feature:
+- (wisdom) add tag
+- (run-wisdom) rm unused path
+- (package) runWisdom: add envir
+
+
 2017.09.01, v6.0.3
 
 feature:
