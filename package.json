@@ -24,8 +24,9 @@
     "async": "^2.1.4",
     "changelog-io": "^2.0.6",
     "currify": "^2.0.3",
+    "envir": "^1.0.0",
     "fullstore": "^1.0.0",
-    "grizzly": "^2.0.0",
+    "grizzly": "^3.0.0",
     "jessy": "^2.0.0",
     "minor": "^1.2.0",
     "prepend": "^1.0.1",
@@ -34,8 +35,7 @@
     "rendy": "^1.1.0",
     "spawnify": "^4.0.0",
     "version-io": "^2.0.1",
-    "writejson": "^1.1.1",
-    "envir": "^1.0.0"
+    "writejson": "^1.1.1"
   },
   "license": "MIT",
   "engines": {
