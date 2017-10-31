@@ -32,6 +32,7 @@
     "prepend": "^1.0.1",
     "read-pkg-up": "^2.0.0",
     "readjson": "^1.1.0",
+    "redrun": "^5.9.16",
     "rendy": "^1.1.0",
     "spawnify": "^4.0.0",
     "version-io": "^2.0.1",
@@ -42,7 +43,6 @@
     "node": ">=4"
   },
   "devDependencies": {
-    "eslint": "^4.0.0",
-    "redrun": "^5.9.16"
+    "eslint": "^4.0.0"
   }
 }
