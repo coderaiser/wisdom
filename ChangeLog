@@ -1,3 +1,9 @@
+2018.01.30, v6.1.4
+
+feature:
+- (wisdom) add support of scoped packages
+
+
 2017.12.08, v6.1.3
 
 fix:
