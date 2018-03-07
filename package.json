@@ -32,7 +32,7 @@
     "prepend": "^1.0.1",
     "read-pkg-up": "^3.0.0",
     "readjson": "^1.1.0",
-    "redrun": "^5.9.16",
+    "redrun": "^6.0.0",
     "rendy": "^1.1.0",
     "spawnify": "^4.0.0",
     "version-io": "^2.0.1",
