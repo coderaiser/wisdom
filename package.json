@@ -34,13 +34,13 @@
     "readjson": "^1.1.0",
     "redrun": "^6.0.0",
     "rendy": "^1.1.0",
-    "spawnify": "^4.0.0",
+    "try-catch": "^2.0.0",
     "version-io": "^2.0.1",
     "writejson": "^1.1.1"
   },
   "license": "MIT",
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "devDependencies": {
     "eslint": "^4.0.0"

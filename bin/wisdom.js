@@ -6,23 +6,25 @@ const args = process.argv.slice(2);
 const arg = args[0];
 
 if (/^(-v|--v)$/.test(arg))
-    version();
-else if (!arg || /^(-h|--help)$/.test(arg))
-    help();
-else if (!/^(patch|minor|major)$/.test(arg))
-    console.error('\'%s\' is not a wisdom option. See \'wisdom --help\'', arg);
-else
-    main();
+    return version();
+
+if (!arg || /^(-h|--help)$/.test(arg))
+    return help();
+
+if (!/^(patch|minor|major)$/.test(arg))
+    return console.error('\'%s\' is not a wisdom option. See \'wisdom --help\'', arg);
+
+main();
 
 function main() {
     const publish = require('..');
     
     publish(arg)
-        .on('error', (error) => {
-            process.stderr.write(error.message);
+        .on('data', (a) => {
+            process.stdout.write(a);
         })
-        .on('data', (data) => {
-            process.stdout.write(data);
+        .on('error', (e) => {
+            process.stderr.write(e.message);
         });
 }
 
