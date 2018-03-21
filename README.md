@@ -14,7 +14,7 @@ One command do next things:
 - publish to npm;
 - run command from `scripts.wisdom:done` of `package.json` (if exist);
 
-Before executing `wisdom` and `wisdom:done` scripts will be expanded via [redrun](https://github.com/coderaiser/redrun) which will speed things up.
+Before executing `wisdom`, `wisdom:type` and `wisdom:done` scripts will be expanded via [redrun](https://github.com/coderaiser/redrun) which will speed things up.
 
 Here is list of commands that should be executed to get same result:
 ```sh
