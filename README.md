@@ -51,9 +51,10 @@ When you need configure `wisdom` you could declare them in `package.json`:
 
 ```js
 {
-    "changelog": true, /* default */
-    "release": true,   /* default */
-    "branch": "master" /* default */
+    "changelog": true,  /* default */
+    "tag": true,        /* default */
+    "release": true,    /* default */
+    "branch": "master"  /* default */
     "scripts": {
         "wisdom": "echo 'do something before publish'",
         "wisdom:type": "echo 'do something before publish and add --patch, --minor or --major argument'",
