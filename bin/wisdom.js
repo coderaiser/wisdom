@@ -24,7 +24,7 @@ function main() {
             process.stdout.write(a);
         })
         .on('error', (e) => {
-            process.stderr.write(e.message);
+            process.stderr.write(`${e.message}\n`);
         });
 }
 
