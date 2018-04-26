@@ -33,7 +33,7 @@
     "read-pkg-up": "^3.0.0",
     "readjson": "^1.1.0",
     "redrun": "^6.0.0",
-    "rendy": "^1.1.0",
+    "rendy": "^2.0.0",
     "try-catch": "^2.0.0",
     "version-io": "^2.0.1",
     "writejson": "^1.1.1"
