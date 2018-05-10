@@ -69,10 +69,10 @@ MIT
 
 [NPMIMGURL]:                https://img.shields.io/npm/v/wisdom.svg?style=flat
 [BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/wisdom/master.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/coderaiser/wisdom.svg?style=flat
+[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/wisdom.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]:                   https://npmjs.org/package/wisdom "npm"
 [BuildStatusURL]:           https://travis-ci.org/coderaiser/wisdom  "Build Status"
-[DependencyStatusURL]:      https://gemnasium.com/coderaiser/wisdom "Dependency Status"
+[DependencyStatusURL]:      https://david-dm.org/coderaiser/wisdom "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 
