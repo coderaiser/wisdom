@@ -36,7 +36,7 @@
     "rendy": "^2.0.0",
     "try-catch": "^2.0.0",
     "version-io": "^2.0.1",
-    "writejson": "^1.1.1"
+    "writejson": "^2.0.1"
   },
   "license": "MIT",
   "engines": {
