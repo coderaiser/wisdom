@@ -43,6 +43,7 @@
     "node": ">=6"
   },
   "devDependencies": {
-    "eslint": "^5.1.0"
+    "eslint": "^5.1.0",
+    "eslint-plugin-node": "^7.0.1"
   }
 }
