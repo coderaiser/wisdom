@@ -1,3 +1,10 @@
+2018.07.18, v8.1.2
+
+feature:
+- (package) read-pkg-up v4.0.0
+- (package) eslint v5.1.0
+
+
 2018.06.14, v8.1.1
 
 feature:
