@@ -32,7 +32,7 @@
     "prepend": "^1.0.1",
     "read-pkg-up": "^4.0.0",
     "readjson": "^1.1.0",
-    "redrun": "^6.0.0",
+    "redrun": "^7.0.0",
     "rendy": "^2.0.0",
     "try-catch": "^2.0.0",
     "version-io": "^2.0.1",
