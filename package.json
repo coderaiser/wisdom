@@ -40,7 +40,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "devDependencies": {
     "eslint": "^5.1.0",
