@@ -23,7 +23,7 @@
   "dependencies": {
     "async": "^2.1.4",
     "changelog-io": "^3.0.0",
-    "currify": "^2.0.3",
+    "currify": "^3.0.0",
     "envir": "^1.0.0",
     "fullstore": "^1.0.0",
     "grizzly": "^3.0.0",
