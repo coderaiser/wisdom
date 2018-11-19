@@ -1,6 +1,6 @@
 {
   "name": "wisdom",
-  "version": "9.0.2",
+  "version": "10.0.0",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Tool for publishing releases to github and npm",
   "homepage": "http://github.com/coderaiser/wisdom",
