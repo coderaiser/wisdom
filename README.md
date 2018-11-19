@@ -54,8 +54,7 @@ When you need configure `wisdom` you could declare them in `package.json`:
     "changelog": true,  /* default */
     "tag": true,        /* default */
     "release": true,    /* default */
-    "publish": true     /* default */
-    "private": false    /* default */
+    "private": false,   /* default */
     "branch": "master"  /* default */
     "scripts": {
         "wisdom": "echo 'do something before publish'",
