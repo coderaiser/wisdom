@@ -1,3 +1,10 @@
+2018.11.21, v10.1.0
+
+feature:
+- (remove-bower-version) rm
+- (run-wisdom) Object.assign -> spread
+
+
 2018.11.19, v10.0.4
 
 fix:
