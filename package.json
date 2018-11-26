@@ -8,6 +8,9 @@
   "bin": {
     "wisdom": "bin/wisdom.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "wisdom": "echo wisdom: $wisdom_version",
     "wisdom:type": "echo wisdom:type: $wisdom_version",
