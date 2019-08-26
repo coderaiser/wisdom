@@ -24,7 +24,7 @@
     "url": "git://github.com/coderaiser/wisdom.git"
   },
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^3.1.0",
     "changelog-io": "^4.0.0",
     "currify": "^3.0.0",
     "envir": "^1.0.0",
