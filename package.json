@@ -47,6 +47,6 @@
   },
   "devDependencies": {
     "eslint": "^6.2.2",
-    "eslint-plugin-node": "^8.0.0"
+    "eslint-plugin-node": "^9.1.0"
   }
 }
