@@ -2,17 +2,22 @@
 
 'use strict';
 
-const args = process.argv.slice(2);
-const arg = args[0];
+const [arg] = process.argv.slice(2);
 
-if (/^(-v|--v)$/.test(arg))
-    return version();
+if (/^(-v|--v)$/.test(arg)) {
+    version();
+    process.exit();
+}
 
-if (!arg || /^(-h|--help)$/.test(arg))
-    return help();
+if (!arg || /^(-h|--help)$/.test(arg)) {
+    help();
+    process.exit();
+}
 
-if (!/^(patch|minor|major)$/.test(arg))
-    return console.error('\'%s\' is not a wisdom option. See \'wisdom --help\'', arg);
+if (!/^(patch|minor|major)$/.test(arg)) {
+    console.error('\'%s\' is not a wisdom option. See \'wisdom --help\'', arg);
+    process.exit();
+}
 
 main();
 
@@ -43,9 +48,9 @@ function help() {
     console.log(usage);
     console.log('Options:');
     
-    Object.keys(bin).forEach((name) => {
+    for (const name of Object.keys(bin)) {
         const line = '  ' + name + ' ' + bin[name];
         console.log(line);
-    });
+    }
 }
 
