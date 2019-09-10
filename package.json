@@ -27,7 +27,7 @@
     "changelog-io": "^4.0.0",
     "currify": "^3.0.0",
     "envir": "^1.0.0",
-    "fullstore": "^1.0.0",
+    "fullstore": "^2.0.2",
     "grizzly": "^4.0.0",
     "jessy": "^2.0.0",
     "minor": "^1.2.0",
