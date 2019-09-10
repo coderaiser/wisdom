@@ -37,7 +37,7 @@
     "redrun": "^7.0.0",
     "rendy": "^3.0.1",
     "try-catch": "^2.0.0",
-    "version-io": "^2.0.1",
+    "version-io": "^3.0.0",
     "writejson": "^2.0.1"
   },
   "license": "MIT",
