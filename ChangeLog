@@ -1,3 +1,15 @@
+2019.09.28, v10.2.3
+
+fix:
+- (wisdom) release: rm callback call
+
+feature:
+- (package) currify v4.0.0
+- (package) read-pkg-up v7.0.0
+- (package) version-io v3.0.0
+- (package) fullstore v2.0.2
+
+
 2019.09.06, v10.2.2
 
 feature:
