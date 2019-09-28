@@ -1,3 +1,9 @@
+2019.09.28, v10.2.4
+
+fix:
+- (wisdom) package -> packageJson
+
+
 2019.09.28, v10.2.3
 
 fix:
