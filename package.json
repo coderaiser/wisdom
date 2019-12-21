@@ -29,7 +29,7 @@
     "envir": "^2.0.0",
     "fullstore": "^2.0.2",
     "grizzly": "^4.0.0",
-    "jessy": "^2.0.0",
+    "jessy": "^3.0.0",
     "minor": "^1.2.0",
     "prepend": "^1.0.1",
     "read-pkg-up": "^7.0.0",
