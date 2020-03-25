@@ -1,3 +1,13 @@
+2020.03.25, v10.2.8
+
+feature:
+- (package) redrun v7.1.19
+- (package) try-catch v3.0.0
+- (wisdom) rm unused readjson, writejson
+- (package) fullstore v3.0.0
+- (package) eslint-plugin-node v11.0.0
+
+
 2019.12.21, v10.2.7
 
 feature:
