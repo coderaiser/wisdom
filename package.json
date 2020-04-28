@@ -37,7 +37,7 @@
     "rendy": "^3.0.1",
     "try-catch": "^3.0.0",
     "try-to-catch": "^3.0.0",
-    "version-io": "^3.0.0"
+    "version-io": "^4.0.0"
   },
   "license": "MIT",
   "engines": {
