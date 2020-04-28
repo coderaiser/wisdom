@@ -1,3 +1,13 @@
+2020.04.28, v10.3.2
+
+fix:
+- (wisdom) callback -> throw
+
+feature:
+- (run-wisdom) rm callback
+- (wisdom) promisify runWisdom
+
+
 2020.03.30, v10.3.1
 
 fix:
