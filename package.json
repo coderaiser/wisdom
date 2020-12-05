@@ -48,6 +48,6 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^6.8.1",
     "madrun": "^8.0.1",
-    "putout": "^9.1.0"
+    "putout": "^11.14.0"
   }
 }
