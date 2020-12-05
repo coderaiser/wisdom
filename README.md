@@ -3,6 +3,7 @@
 Tool for publishing releases to github and npm according to [Semantic Versionin](http://semver.org "Semantic Versioning").
 
 One command do next things:
+
 - set env variable `$wisdom_version` and `$WISDOM_VERSION` with future version
 - run command from `scripts.wisdom` of `package.json` (if exist);
 - run command from `scripts.wisdom:type` of `package.json` (if exist);
@@ -17,6 +18,7 @@ One command do next things:
 Before executing `wisdom`, `wisdom:type` and `wisdom:done` scripts will be expanded via [redrun](https://github.com/coderaiser/redrun) which will speed things up.
 
 Here is list of commands that should be executed to get same result:
+
 ```sh
 changelog {{ version }}
 version {{ version }}
@@ -49,13 +51,13 @@ Options:
 
 When you need configure `wisdom` you could declare them in `package.json`:
 
-```js
+```json
 {
     "changelog": true,  /* default */
     "tag": true,        /* default */
     "release": true,    /* default */
     "private": false,   /* default */
-    "branch": "master"  /* default */
+    "branch": "master", /* default */
     "scripts": {
         "wisdom": "echo 'do something before publish'",
         "wisdom:type": "echo 'do something before publish and add --patch, --minor or --major argument'",
@@ -68,12 +70,11 @@ When you need configure `wisdom` you could declare them in `package.json`:
 
 MIT
 
-[NPMIMGURL]:                https://img.shields.io/npm/v/wisdom.svg?style=flat
-[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/wisdom/master.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/wisdom.svg?style=flat
-[LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
-[NPMURL]:                   https://npmjs.org/package/wisdom "npm"
-[BuildStatusURL]:           https://travis-ci.org/coderaiser/wisdom  "Build Status"
-[DependencyStatusURL]:      https://david-dm.org/coderaiser/wisdom "Dependency Status"
-[LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
-
+[NPMIMGURL]: https://img.shields.io/npm/v/wisdom.svg?style=flat
+[BuildStatusIMGURL]: https://img.shields.io/travis/coderaiser/wisdom/master.svg?style=flat
+[DependencyStatusIMGURL]: https://img.shields.io/david/coderaiser/wisdom.svg?style=flat
+[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
+[NPMURL]: https://npmjs.org/package/wisdom "npm"
+[BuildStatusURL]: https://travis-ci.org/coderaiser/wisdom "Build Status"
+[DependencyStatusURL]: https://david-dm.org/coderaiser/wisdom "Dependency Status"
+[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
