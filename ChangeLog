@@ -1,3 +1,13 @@
+2021.04.22, v11.1.0
+
+feature:
+- (wisdom) converted to ESM
+- (package) eslint-plugin-putout v7.4.0
+- (package) putout v16.10.0
+- (package) read-pkg-up v8.0.0
+- (wisdom) add emoji to changelog
+
+
 2020.12.06, v11.0.0
 
 feature:
