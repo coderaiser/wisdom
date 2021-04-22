@@ -1,5 +1,14 @@
 # Wisdom [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL]
 
+[NPMIMGURL]: https://img.shields.io/npm/v/wisdom.svg?style=flat
+[BuildStatusURL]: https://github.com/coderaiser/wisdom/actions?query=workflow%3A%22Node+CI%22 "Build Status"
+[BuildStatusIMGURL]: https://github.com/coderaiser/wisdom/workflows/Node%20CI/badge.svg
+[DependencyStatusIMGURL]: https://david-dm.org/coderaiser/wisdom.svg?
+[DependencyStatusURL]: https://david-dm.org/coderaiser/wisdom "Dependency Status"
+[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
+[NPMURL]: https://npmjs.org/package/wisdom "npm"
+[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
+
 Tool for publishing releases to github and npm according to [Semantic Versionin](http://semver.org "Semantic Versioning").
 
 One command do next things:
@@ -69,12 +78,3 @@ When you need configure `wisdom` you could declare them in `package.json`:
 ## License
 
 MIT
-
-[NPMIMGURL]: https://img.shields.io/npm/v/wisdom.svg?style=flat
-[BuildStatusIMGURL]: https://img.shields.io/travis/coderaiser/wisdom/master.svg?style=flat
-[DependencyStatusIMGURL]: https://img.shields.io/david/coderaiser/wisdom.svg?style=flat
-[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
-[NPMURL]: https://npmjs.org/package/wisdom "npm"
-[BuildStatusURL]: https://travis-ci.org/coderaiser/wisdom "Build Status"
-[DependencyStatusURL]: https://david-dm.org/coderaiser/wisdom "Dependency Status"
-[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
