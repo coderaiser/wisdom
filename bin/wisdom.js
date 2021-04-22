@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 
 import wisdom from '../lib/wisdom.js';
-import join from 'path';
 import {createCommons} from 'simport';
 
-const {__dirname, require} = createCommons(import.meta.url);
+const {require} = createCommons(import.meta.url);
 
 const [arg] = process.argv.slice(2);
 
@@ -14,7 +13,7 @@ if (/^(-v|--v)$/.test(arg)) {
 }
 
 if (!arg || /^(-h|--help)$/.test(arg)) {
-    await help();
+    help();
     process.exit();
 }
 
@@ -39,7 +38,7 @@ function info() {
     return require('../package.json');
 }
 
-async function help() {
+function help() {
     const bin = require('../json/bin.json');
     const usage = 'Usage: ' + info().name + ' [patch|minor|major]';
     
