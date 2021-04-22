@@ -1,8 +1,6 @@
-'use strict';
+import {run} from 'madrun';
 
-const {run} = require('madrun');
-
-module.exports = {
+export default {
     'wisdom': () => 'echo wisdom: $wisdom_version',
     'wisdom:type': () => 'echo wisdom:type: $wisdom_version',
     'wisdom:done': () => 'npm i wisdom -g',

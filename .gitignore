@@ -3,4 +3,6 @@ npm-debug.log
 .*.swp
 yarn*
 
-.putoutcache
+*.swp
+yarn-error.log
+coverage
