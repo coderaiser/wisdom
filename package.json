@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "async": "^3.1.0",
-    "changelog-io": "^5.0.0",
+    "changelog-io": "^6.0.0",
     "currify": "^4.0.0",
     "envir": "^2.0.0",
     "fullstore": "^3.0.0",
