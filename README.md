@@ -82,15 +82,15 @@ Options:
 
 ## Configuration
 
-When you need configure `wisdom` you could declare them in `package.json`:
+When you need configure `wisdom` you could declare them in `package.json` (**with defaults set**):
 
 ```json
 {
-    "changelog": true,  /* default */
-    "tag": true,        /* default */
-    "release": true,    /* default */
-    "private": false,   /* default */
-    "branch": "master", /* default */
+    "changelog": true,
+    "tag": true,
+    "release": true,
+    "private": false,
+    "branch": "master",
     "scripts": {
         "wisdom": "echo 'do something before publish'",
         "wisdom:type": "echo 'do something before publish and add --patch, --minor or --major argument'",
