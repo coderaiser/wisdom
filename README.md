@@ -30,9 +30,9 @@ One command do next things:
 
 ```json
 {
-  "publishConfig": {
-    "access": "public"
-  }
+    "publishConfig": {
+        "access": "public"
+    }
 }
 ```
 
@@ -40,11 +40,14 @@ One command do next things:
 
 ```json
 {
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/coderaiser/wisdom.git"
-  }
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/coderaiser/wisdom.git"
+    }
 }
+
+```
+
 Before executing `wisdom`, `wisdom:type` and `wisdom:done` scripts will be expanded via [redrun](https://github.com/coderaiser/redrun) which will speed things up.
 
 Here is list of commands that should be executed to get same result:
