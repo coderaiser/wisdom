@@ -21,7 +21,7 @@ jobs:
         run: npm i redrun -g
 
       - name: Install
-        run: npm install
+        run: npm install -f
 
       - name: Bootstrap
         run: redrun bootstrap
