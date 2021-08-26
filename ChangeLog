@@ -1,3 +1,10 @@
+2021.08.26, v11.2.1
+
+fix:
+- (wisdom) validate-package: npmignore
+
+
+
 2021.08.26, v11.2.0
 
 feature:
