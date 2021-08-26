@@ -1,3 +1,12 @@
+2021.08.26, v11.2.0
+
+feature:
+- (wisdom) simplify releases
+- (wisdom) add ability to check "repository.url"
+- (wisdom) improve description
+
+
+
 2021.08.26, v11.1.3
 
 fix:
