@@ -13,6 +13,8 @@
   },
   "type": "module",
   "scripts": {
+    "test": "madrun test",
+    "coverage": "madrun coverage",
     "wisdom": "madrun wisdom",
     "wisdom:type": "madrun wisdom:type",
     "wisdom:done": "madrun wisdom:done",
@@ -46,10 +48,12 @@
     "node": ">=14"
   },
   "devDependencies": {
+    "c8": "^7.8.0",
     "eslint": "^8.0.0-beta.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^9.2.1",
     "madrun": "^8.0.1",
-    "putout": "^19.0.1"
+    "putout": "^19.0.1",
+    "supertape": "^6.0.5"
   }
 }

@@ -24,6 +24,27 @@ One command do next things:
 - publish to npm;
 - run command from `scripts.wisdom:done` of `package.json` (if exist);
 
+`package.json` should contan next properties,
+
+**when publish enabled:**
+
+```json
+{
+  "publishConfig": {
+    "access": "public"
+  }
+}
+```
+
+**when releases enabled:**
+
+```json
+{
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/wisdom.git"
+  }
+}
 Before executing `wisdom`, `wisdom:type` and `wisdom:done` scripts will be expanded via [redrun](https://github.com/coderaiser/redrun) which will speed things up.
 
 Here is list of commands that should be executed to get same result:
