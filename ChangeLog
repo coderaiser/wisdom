@@ -1,3 +1,9 @@
+2021.08.31, v11.3.1
+
+fix:
+- (wisdom) release: return when no error
+
+
 2021.08.30, v11.3.0
 
 feature:
