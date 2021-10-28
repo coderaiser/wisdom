@@ -1,10 +1,8 @@
-# Wisdom [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL]
+# Wisdom [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL]
 
 [NPMIMGURL]: https://img.shields.io/npm/v/wisdom.svg?style=flat
 [BuildStatusURL]: https://github.com/coderaiser/wisdom/actions?query=workflow%3A%22Node+CI%22 "Build Status"
 [BuildStatusIMGURL]: https://github.com/coderaiser/wisdom/workflows/Node%20CI/badge.svg
-[DependencyStatusIMGURL]: https://david-dm.org/coderaiser/wisdom.svg?
-[DependencyStatusURL]: https://david-dm.org/coderaiser/wisdom "Dependency Status"
 [LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]: https://npmjs.org/package/wisdom "npm"
 [LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
