@@ -38,6 +38,10 @@ One command do next things:
 
 **when releases enabled:**
 
+With `env variable` `WISDOM_RELEASE_TRIES_COUNT=10` maximum tries count can be set.
+
+`repository` field should be set:
+
 ```json
 {
     "repository": {
