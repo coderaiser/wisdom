@@ -1,3 +1,13 @@
+2021.10.28, v11.4.0
+
+feature:
+- (wisdom) add WISDOM_RELEASE_TRYIES_COUNT
+- (package) read-pkg-up v9.0.0
+- (package) eslint v8.1.0
+- (package) eslint-plugin-putout v10.10.0
+- (package) putout v20.19.0
+
+
 2021.08.31, v11.3.1
 
 fix:
