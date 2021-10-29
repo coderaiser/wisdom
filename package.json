@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/wisdomm.git"
+    "url": "git://github.com/coderaiser/wisdom.git"
   },
   "dependencies": {
     "async": "^3.1.0",
