@@ -1,3 +1,9 @@
+2021.10.29, v11.4.1
+
+fix:
+- (wisdom) releaseTriesCount
+
+
 2021.10.28, v11.4.0
 
 feature:
