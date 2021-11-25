@@ -18,7 +18,7 @@ if (!arg || /^(-h|--help)$/.test(arg)) {
 }
 
 if (!/^(patch|minor|major)$/.test(arg)) {
-    console.error('\'%s\' is not a wisdom option. See \'wisdom --help\'', arg);
+    console.error(`'%s' is not a wisdom option. See 'wisdom --help'`, arg);
     process.exit();
 }
 
