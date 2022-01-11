@@ -6,3 +6,4 @@ yarn*
 *.swp
 yarn-error.log
 coverage
+.idea
