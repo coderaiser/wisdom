@@ -5,6 +5,7 @@
   "description": "Tool for publishing releases to github and npm",
   "homepage": "http://github.com/coderaiser/wisdom",
   "main": "lib/wisdom.js",
+  "commitType": "colon",
   "bin": {
     "wisdom": "bin/wisdom.js"
   },
