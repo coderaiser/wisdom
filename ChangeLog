@@ -1,3 +1,11 @@
+2022.01.11, v11.6.0
+
+feature:
+- (package) eslint-plugin-putout v12.12.0
+- (package) putout v23.7.0
+- wisdom: add support of commitType
+
+
 2021.11.25, v11.5.0
 
 feature:
