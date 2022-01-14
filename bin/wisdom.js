@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
+import {createRequire} from 'module';
 import wisdom from '../lib/wisdom.js';
-import {createCommons} from 'simport';
 
-const {require} = createCommons(import.meta.url);
+const require = createRequire(import.meta.url);
 
 const [arg] = process.argv.slice(2);
 
