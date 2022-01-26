@@ -1,3 +1,9 @@
+2022.01.26, v11.7.0
+
+feature:
+- wisdom: release: rm callback
+
+
 2022.01.14, v11.6.1
 
 feature:
