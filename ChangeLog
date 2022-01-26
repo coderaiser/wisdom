@@ -1,3 +1,9 @@
+2022.01.26, v11.7.1
+
+fix:
+- wisdom: rm callback
+
+
 2022.01.26, v11.7.0
 
 feature:
