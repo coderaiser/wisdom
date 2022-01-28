@@ -1,3 +1,12 @@
+2022.01.28, v11.7.2
+
+fix:
+- wisdom: prepend
+
+feature:
+- package: configurable
+
+
 2022.01.26, v11.7.1
 
 fix:
