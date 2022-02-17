@@ -1,3 +1,12 @@
+2022.02.17, v12.0.0
+
+feature:
+- package: redrun v10.0.0
+- wizard: drop support of node < 16
+- package: putout v25.0.0
+- package: supertape v7.0.1
+
+
 2022.01.28, v11.7.2
 
 fix:
