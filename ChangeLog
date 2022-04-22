@@ -1,3 +1,11 @@
+2022.04.22, v12.0.1
+
+feature:
+- package: eslint-plugin-putout v14.11.0
+- package: madrun v9.0.2
+- package: changelog-io v7.0.0
+
+
 2022.02.17, v12.0.0
 
 feature:
