@@ -187,7 +187,7 @@ fix:
 2020.04.28, v10.3.3
 
 feature:
-- (wisdom) vesion-io v4.0.0
+- (wisdom) version-io v4.0.0
 - (package) version-io v4.0.0
 
 
@@ -584,7 +584,7 @@ fix:
 2017.05.30, v5.1.1
 
 feature:
-- (wisdom) rm tag: has no sense, becouse of private
+- (wisdom) rm tag: has no sense, because of private
 - (travis) node_js: 7 -> 8
 
 

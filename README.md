@@ -22,7 +22,7 @@ One command do next things:
 - publish to npm;
 - run command from `scripts.wisdom:done` of `package.json` (if exist);
 
-`package.json` should contan next properties,
+`package.json` should contain next properties,
 
 **when publish enabled:**
 
