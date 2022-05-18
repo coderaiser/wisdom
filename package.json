@@ -59,7 +59,7 @@
     "eslint-plugin-putout": "^15.1.1",
     "madrun": "^9.0.2",
     "montag": "^1.2.1",
-    "putout": "^25.0.0",
+    "putout": "^26.0.0",
     "supertape": "^7.0.1"
   }
 }
