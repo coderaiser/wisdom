@@ -16,6 +16,7 @@
   "scripts": {
     "test": "madrun test",
     "coverage": "madrun coverage",
+    "coverage:old": "madrun coverage:old",
     "report": "madrun report",
     "wisdom": "madrun wisdom",
     "patch": "madrun patch",
@@ -54,10 +55,12 @@
   },
   "devDependencies": {
     "c8": "^7.8.0",
+    "escover": "^2.1.2",
     "eslint": "^8.1.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^15.1.1",
     "madrun": "^9.0.2",
+    "mock-import": "^3.0.2",
     "montag": "^1.2.1",
     "putout": "^26.0.0",
     "supertape": "^7.0.1"
