@@ -1,3 +1,11 @@
+2022.05.18, v12.1.0
+
+feature:
+- wisdom: add ability to check for 'repository' field of 'package.json'
+- package: putout v26
+- package: eslint-plugin-putout v15.1.1
+
+
 2022.04.22, v12.0.1
 
 feature:
