@@ -24,6 +24,7 @@
     "major": "madrun major",
     "wisdom:type": "madrun wisdom:type",
     "wisdom:done": "madrun wisdom:done",
+    "wisdom:build": "madrun wisdom:build",
     "lint": "madrun lint",
     "fix:lint": "madrun fix:lint"
   },
