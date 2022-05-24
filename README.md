@@ -76,8 +76,9 @@ npm publish
 $ wisdom
 Usage: wisdom [patch|minor|major]
 Options:
--h, --help     : display this help and exit
--v, --version  : output version information and exit
+  --dry-run       show tasks to run without actually running
+  -h, --help      display this help and exit
+  -v, --version   output version information and exit
 ```
 
 ## Configuration

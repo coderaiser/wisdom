@@ -5,7 +5,7 @@ import wisdom from '../lib/wisdom.js';
 
 const require = createRequire(import.meta.url);
 
-const [arg] = process.argv.slice(2);
+const [arg, option] = process.argv.slice(2);
 
 if (/^(-v|--v)$/.test(arg)) {
     version();
@@ -27,7 +27,7 @@ if (!/^(patch|minor|major)$/.test(arg)) {
     process.exit();
 }
 
-const dryRun = arg.includes('--dry-run');
+const dryRun = option === '--dry-run';
 
 wisdom(arg, {dryRun})
     .on('data', (a) => {
