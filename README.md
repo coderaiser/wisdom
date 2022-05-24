@@ -94,8 +94,9 @@ When you need configure `wisdom` you could declare them in `package.json` (**wit
     "private": false,
     "branch": "master",
     "scripts": {
-        "wisdom": "echo 'do something before publish'",
-        "wisdom:type": "echo 'do something before publish and add --patch, --minor or --major argument'",
+        "wisdom": "echo 'do something before starting'",
+        "wisdom:type": "echo 'do something before starting and add --patch, --minor or --major argument'",
+        "wisdom:build": "echo 'do something before publish'",
         "wisdom:done": "echo 'do something after publish'"
     }
 }
