@@ -17,12 +17,19 @@ if (!arg || /^(-h|--help)$/.test(arg)) {
     process.exit();
 }
 
+if (/^(-v|--v)$/.test(arg)) {
+    version();
+    process.exit();
+}
+
 if (!/^(patch|minor|major)$/.test(arg)) {
     console.error(`'%s' is not a wisdom option. See 'wisdom --help'`, arg);
     process.exit();
 }
 
-wisdom(arg)
+const dryRun = arg.includes('--dry-run');
+
+wisdom(arg, {dryRun})
     .on('data', (a) => {
         process.stdout.write(a);
     })
