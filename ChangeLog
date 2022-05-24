@@ -1,3 +1,9 @@
+2022.05.24, v13.1.0
+
+feature:
+- wisdom: parser: simplify
+
+
 2022.05.24, v13.0.5
 
 fix:
