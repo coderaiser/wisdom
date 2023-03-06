@@ -63,6 +63,6 @@
     "mock-import": "^3.0.2",
     "montag": "^1.2.1",
     "putout": "^27.7.0",
-    "supertape": "^7.0.1"
+    "supertape": "^8.3.0"
   }
 }
