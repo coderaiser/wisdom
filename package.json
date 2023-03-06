@@ -33,7 +33,7 @@
     "url": "git://github.com/coderaiser/wisdom.git"
   },
   "dependencies": {
-    "changelog-io": "^7.0.0",
+    "changelog-io": "^8.0.0",
     "currify": "^4.0.0",
     "envir": "^2.0.0",
     "fullstore": "^3.0.0",
