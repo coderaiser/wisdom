@@ -1,3 +1,12 @@
+2023.03.07, v14.0.0
+
+feature:
+- package: putout v29.0.1
+- package: supertape v8.3.0
+- package: changelog-io v8.0.0: add commit hash to produced ChangeLog
+- package: eslint-plugin-putout v16.2.1
+- package: putout v27.7.0
+
 2022.06.17, v13.1.2
 
 fix:
