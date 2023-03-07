@@ -35,6 +35,7 @@
   "dependencies": {
     "changelog-io": "^8.0.0",
     "currify": "^4.0.0",
+    "enquirer": "^2.3.6",
     "envir": "^2.0.0",
     "fullstore": "^3.0.0",
     "grizzly": "^5.0.0",

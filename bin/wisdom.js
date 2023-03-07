@@ -2,10 +2,20 @@
 
 import {createRequire} from 'module';
 import wisdom from '../lib/wisdom.js';
+import {choose} from '../lib/prompts.js';
 
 const require = createRequire(import.meta.url);
 
-const [arg, option] = process.argv.slice(2);
+let [arg, option] = process.argv.slice(2);
+
+if (arg === '--dry-run') {
+    arg = '';
+    option = '--dry-run';
+}
+
+if (!arg) {
+    arg = await choose();
+}
 
 if (/^(-v|--v)$/.test(arg)) {
     version();
@@ -28,8 +38,9 @@ if (!/^(patch|minor|major)$/.test(arg)) {
 }
 
 const dryRun = option === '--dry-run';
+const force = option === '--force';
 
-wisdom(arg, {dryRun})
+wisdom(arg, {dryRun, force})
     .on('data', (a) => {
         process.stdout.write(a);
     })
