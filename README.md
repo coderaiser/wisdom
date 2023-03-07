@@ -77,6 +77,7 @@ $ wisdom
 Usage: wisdom [patch|minor|major]
 Options:
   --dry-run       show tasks to run without actually running
+  --force         do not ask before publishin major
   -h, --help      display this help and exit
   -v, --version   output version information and exit
 ```
