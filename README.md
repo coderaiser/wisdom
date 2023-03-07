@@ -89,7 +89,7 @@ When you need configure `wisdom` you could declare them in `package.json` (**wit
 ```json
 {
     "changelog": true,
-    "commitType": "paren|colon",
+    "commitType": "colon|paren",
     "tag": true,
     "release": true,
     "releaseTriesCount": 10,
