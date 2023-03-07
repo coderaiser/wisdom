@@ -11,7 +11,6 @@ Tool for publishing releases to github and npm according to [Semantic Versionin]
 
 ![image](https://user-images.githubusercontent.com/1573141/223403376-ca826b4f-30ad-480e-ade6-65c3374e0cea.png)
 
-
 One command do next things:
 
 - set env variable `$wisdom_version` and `$WISDOM_VERSION` with future version
