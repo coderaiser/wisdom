@@ -40,7 +40,10 @@ if (!/^(patch|minor|major)$/.test(arg)) {
 const dryRun = option === '--dry-run';
 const force = option === '--force';
 
-wisdom(arg, {dryRun, force})
+wisdom(arg, {
+    dryRun,
+    force,
+})
     .on('data', (a) => {
         process.stdout.write(a);
     })
@@ -68,4 +71,3 @@ function help() {
         console.log(line);
     }
 }
-

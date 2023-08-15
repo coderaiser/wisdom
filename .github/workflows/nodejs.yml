@@ -12,15 +12,18 @@ jobs:
         node-version:
           - 16.x
           - 18.x
-          - 19.x
+          - 20.x
     steps:
       - uses: actions/checkout@v3
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install
-        run: npm i
+        run: bun i --no-save
       - name: Lint
         run: npm run fix:lint
       - uses: actions-rs/toolchain@v1
@@ -41,11 +44,13 @@ jobs:
         run: typos --write-changes
       - name: Commit fixes
         uses: EndBug/add-and-commit@v9
+        continue-on-error: true
         with:
           message: "chore: ${{ env.NAME }}: lint using actions ☘️"
       - name: Coverage
         run: npm run coverage
       - name: Coveralls
-        uses: coverallsapp/github-action@master
+        uses: coverallsapp/github-action@v2
+        continue-on-error: true
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}

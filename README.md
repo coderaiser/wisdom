@@ -47,7 +47,6 @@ Tool for publishing releases to github and npm according to [Semantic Versionin]
         "url": "git://github.com/coderaiser/wisdom.git"
     }
 }
-
 ```
 
 Before executing `wisdom`, `wisdom:type` and `wisdom:done` scripts will be expanded via [redrun](https://github.com/coderaiser/redrun) which will speed things up.
