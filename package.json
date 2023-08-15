@@ -57,7 +57,7 @@
     "c8": "^8.0.1",
     "escover": "^2.1.2",
     "eslint": "^8.1.0",
-    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-putout": "^19.1.0",
     "madrun": "^9.0.2",
     "mock-import": "^3.0.2",
