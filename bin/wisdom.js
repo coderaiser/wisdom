@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import {createRequire} from 'module';
+import {createRequire} from 'node:module';
+import process from 'node:process';
 import wisdom from '../lib/wisdom.js';
 import {choose} from '../lib/prompts.js';
 
