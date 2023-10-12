@@ -44,7 +44,7 @@
     "read-pkg-up": "^10.0.0",
     "readjson": "^2.2.2",
     "redrun": "^10.0.0",
-    "rendy": "^3.0.1",
+    "rendy": "^4.1.3",
     "try-catch": "^3.0.0",
     "try-to-catch": "^3.0.0",
     "version-io": "^4.0.0"
