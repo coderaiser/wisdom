@@ -32,6 +32,7 @@
     "url": "git://github.com/coderaiser/wisdom.git"
   },
   "dependencies": {
+    "@putout/cli-choose": "^1.0.1",
     "changelog-io": "^8.0.0",
     "currify": "^4.0.0",
     "enquirer": "^2.3.6",
