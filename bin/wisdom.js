@@ -14,9 +14,8 @@ if (arg === '--dry-run') {
     option = '--dry-run';
 }
 
-if (!arg) {
+if (!arg)
     arg = await choose();
-}
 
 if (/^(-v|--v)$/.test(arg)) {
     version();
