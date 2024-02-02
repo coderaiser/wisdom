@@ -56,7 +56,7 @@
   },
   "devDependencies": {
     "c8": "^9.1.0",
-    "escover": "^3.5.2",
+    "escover": "^4.1.0",
     "eslint": "^8.1.0",
     "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-putout": "^20.0.0",
