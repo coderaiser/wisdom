@@ -60,7 +60,7 @@
     "eslint": "^8.1.0",
     "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-putout": "^22.3.1",
-    "madrun": "^9.0.2",
+    "madrun": "^10.0.1",
     "mock-import": "^3.0.2",
     "montag": "^1.2.1",
     "putout": "^32.2.0",
