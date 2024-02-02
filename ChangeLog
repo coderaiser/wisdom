@@ -1,3 +1,17 @@
+2024.02.02, v15.0.0
+
+feature:
+- 59801a9 wisdom: drop support of node < 18
+- e76e10d wisdom: read-pkg-up v11.0.0
+- 511151c wisdom: putout v35.0.4
+- 1311f35 wisdom: mock-import v4.0.3
+- 8536dee wisdom: madrun v10.0.1
+- 5ea4d87 wisdom: eslint-plugin-putout v22.3.1
+- 21e3e15 wisdom: escover v4.1.0
+- 66c92d0 wisdom: c8 v9.1.0
+- 16564d1 wisdom: supertape v10.0.0
+- f2ff2e8 wisdom: redrun v11.0.1
+
 2023.10.31, v14.4.1
 
 fix:
