@@ -3,7 +3,7 @@ import {
     cutEnv,
 } from 'madrun';
 
-const NODE_OPTIONS = `'--no-warnings --loader mock-import'`;
+const NODE_OPTIONS = `'--no-warnings --import mock-import/register'`;
 const testEnv = {
     NODE_OPTIONS,
 };
