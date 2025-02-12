@@ -1,3 +1,10 @@
+2025.02.12, v15.2.1
+
+feature:
+- 6712fb5 wisdom: eslint-plugin-putout v24.0.3
+- b458162 wisdom: envir v3.0.1
+- 710d0da wisdom: putout v38.1.2
+
 2024.07.18, v15.2.0
 
 feature:
