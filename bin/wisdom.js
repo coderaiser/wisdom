@@ -55,9 +55,7 @@ function version() {
     console.log('v' + info().version);
 }
 
-function info() {
-    return require('../package.json');
-}
+const info = () => require('../package.json');
 
 function help() {
     const bin = require('../json/bin.json');
