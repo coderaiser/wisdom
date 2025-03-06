@@ -39,7 +39,7 @@
     "envir": "^3.0.1",
     "fullstore": "^3.0.0",
     "grizzly": "^6.0.0",
-    "jessy": "^3.0.0",
+    "jessy": "^4.1.0",
     "minor": "^1.2.0",
     "prepend": "^1.0.1",
     "read-package-up": "^11.0.0",
