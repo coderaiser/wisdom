@@ -1,3 +1,8 @@
+2025.03.13, v15.4.0
+
+fix:
+- d01c74a wisdom: run-wisdom: use local node_modules/.bin first
+
 2025.03.06, v15.3.0
 
 feature:
