@@ -59,7 +59,7 @@
     "c8": "^10.1.2",
     "escover": "^4.1.0",
     "eslint": "^9.3.0",
-    "eslint-plugin-putout": "^25.0.3",
+    "eslint-plugin-putout": "^26.0.2",
     "madrun": "^11.0.0",
     "mock-import": "^4.0.3",
     "montag": "^1.2.1",
