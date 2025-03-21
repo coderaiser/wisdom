@@ -1,3 +1,13 @@
+2025.03.22, v16.0.0
+
+feature:
+- 2a142f7 wisdom: drop support of node < 20
+- 64c9258 wisdom: eslint-plugin-putout v26.0.2
+- 1aa1af3 wisdom: putout v39.0.4
+- 41e0f35 wisdom: madrun v11.0.0
+- bf8690e wisdom: redrun v11.1.0
+- bbfb759 wisdom: search directory node_modules
+
 2025.03.13, v15.4.1
 
 fix:
