@@ -49,7 +49,7 @@
     "rendy": "^4.1.3",
     "try-catch": "^3.0.0",
     "try-to-catch": "^3.0.0",
-    "version-io": "^4.0.0"
+    "version-io": "^5.0.0"
   },
   "license": "MIT",
   "engines": {
