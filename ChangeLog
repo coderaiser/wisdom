@@ -1,3 +1,11 @@
+2025.03.30, v16.0.2
+
+fix:
+- 29023c9 wisdom: ctrl+c
+
+feature:
+- e8e7477 wisdom: supertape v11.0.4
+
 2025.03.22, v16.0.1
 
 feature:
