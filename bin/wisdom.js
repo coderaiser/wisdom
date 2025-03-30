@@ -7,6 +7,8 @@ import {choose} from '../lib/prompts.js';
 
 const require = createRequire(import.meta.url);
 
+const info = () => require('../package.json');
+
 let [arg, option] = process.argv.slice(2);
 
 if (arg === '--dry-run') {
@@ -54,8 +56,6 @@ wisdom(arg, {
 function version() {
     console.log('v' + info().version);
 }
-
-const info = () => require('../package.json');
 
 function help() {
     const bin = require('../json/bin.json');
