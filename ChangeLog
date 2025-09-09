@@ -1,3 +1,12 @@
+2025.09.09, v16.0.4
+
+feature:
+- 54c3c4f wisdom: supertape v11.3.0
+- d09a5ee wisdom: putout v40.8.0
+- 56b64e3 wisdom: madrun v11.0.2
+- bc789de wisdom: eslint-plugin-putout v28.0.5
+- f4b4f45 wisdom: eslint v9.35.0
+
 2025.03.30, v16.0.3
 
 feature:
