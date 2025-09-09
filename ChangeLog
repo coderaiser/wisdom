@@ -1,3 +1,8 @@
+2025.09.09, v16.0.5
+
+fix:
+- 62333d3 wisdom: publish -> publish --tag latest
+
 2025.09.09, v16.0.4
 
 feature:
