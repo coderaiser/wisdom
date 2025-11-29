@@ -1,3 +1,10 @@
+2025.11.30, v16.0.6
+
+feature:
+- 25accd5 wisdom: read-package-up v12.0.0
+- 2917e7a wisdom: eslint-plugin-putout v29.0.0
+- 4af0004 wisdom: @putout/cli-choose v3.0.0
+
 2025.09.09, v16.0.5
 
 fix:
