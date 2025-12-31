@@ -1,3 +1,12 @@
+2025.12.31, v17.0.0
+
+feature:
+- 2d013a0 wisdom: drop support of node < 22
+- 3ca4f0c wisdom: try-to-catch v4.0.2
+- 012b529 wisdom: try-catch v4.0.6
+- d6c188e wisdom: putout v41.3.3
+- a97e37b wisdom: get rid of mock-import
+
 2025.11.30, v16.0.6
 
 feature:
