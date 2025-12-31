@@ -15,7 +15,6 @@
   "scripts": {
     "test": "madrun test",
     "coverage": "madrun coverage",
-    "coverage:old": "madrun coverage:old",
     "report": "madrun report",
     "wisdom": "madrun wisdom",
     "patch": "madrun patch",
