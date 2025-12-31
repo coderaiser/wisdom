@@ -1,14 +1,10 @@
 import {run, cutEnv} from 'madrun';
 
-const NODE_OPTIONS = `'--no-warnings --import mock-import/register'`;
-const testEnv = {
-    NODE_OPTIONS,
-};
+const testEnv = {};
 
 export default {
     'test': () => [testEnv, `tape 'test/**/*.js' 'lib/**/*.spec.js'`],
-    'coverage': async () => `escover ${await cutEnv('test')}`,
-    'coverage:old': async () => [testEnv, `c8 --exclude="lib/**/{fixture,*.spec.js}" ${await cutEnv('test')}`],
+    'coverage': async () => [testEnv, `c8 ${await cutEnv('test')}`],
     'report': () => 'c8 report --reporter=lcov',
     'wisdom': () => 'echo wisdom: $wisdom_version',
     'patch': () => 'node bin/wisdom.js patch',
