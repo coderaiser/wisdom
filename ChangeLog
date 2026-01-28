@@ -1,3 +1,9 @@
+2026.01.28, v17.0.4
+
+feature:
+- a6066c0 wisdom: @putout/cli-choose v4.0.0
+- 9c31480 wisdom: eslint-plugin-putout v30.0.1
+
 2026.01.18, v17.0.3
 
 feature:
