@@ -1,3 +1,8 @@
+2026.02.03, v17.2.0
+
+feature:
+- b7476bd wisdom: bin: require -> import
+
 2026.02.02, v17.1.0
 
 feature:
