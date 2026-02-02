@@ -1,13 +1,8 @@
 #!/usr/bin/env node
 
-import {createRequire} from 'node:module';
 import process from 'node:process';
 import wisdom from '../lib/wisdom.js';
 import {choose} from '../lib/prompts.js';
-
-const require = createRequire(import.meta.url);
-
-const info = () => require('../package.json');
 
 let [arg, option] = process.argv.slice(2);
 
@@ -16,21 +11,20 @@ if (arg === '--dry-run') {
     option = '--dry-run';
 }
 
-if (!arg)
+if (!arg) {
     arg = await choose();
+    
+    if (!arg)
+        process.exit(1);
+}
 
-if (/^(-v|--v)$/.test(arg)) {
-    version();
+if (/^(-v|--version)$/.test(arg)) {
+    await version();
     process.exit();
 }
 
 if (!arg || /^(-h|--help)$/.test(arg)) {
-    help();
-    process.exit();
-}
-
-if (/^(-v|--v)$/.test(arg)) {
-    version();
+    await help();
     process.exit();
 }
 
@@ -53,13 +47,18 @@ wisdom(arg, {
         process.stderr.write(`${e.message}\n`);
     });
 
-function version() {
-    console.log('v' + info().version);
+async function version() {
+    console.log('v' + (await info()).version);
 }
 
-function help() {
-    const bin = require('../json/bin.json');
-    const usage = 'Usage: ' + info().name + ' [patch|minor|major]';
+async function help() {
+    const {default: bin} = await import('../json/bin.json', {
+        with: {
+            type: 'json',
+        },
+    });
+    
+    const usage = 'Usage: ' + (await info()).name + ' [patch|minor|major]';
     
     console.log(usage);
     console.log('Options:');
@@ -68,4 +67,14 @@ function help() {
         const line = '  ' + name + ' ' + bin[name];
         console.log(line);
     }
+}
+
+async function info() {
+    const {default: data} = await import('../package.json', {
+        with: {
+            type: 'json',
+        },
+    });
+    
+    return data;
 }
