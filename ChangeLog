@@ -1,3 +1,8 @@
+2026.02.05, v17.2.1
+
+fix:
+- a4fb95a wisdom: promps: crash after cancel
+
 2026.02.03, v17.2.0
 
 feature:
