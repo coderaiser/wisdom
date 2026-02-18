@@ -1,3 +1,12 @@
+2026.02.18, v17.2.2
+
+feature:
+- 1ed5712 wisdom: putout v42.0.5
+- c005475 wisdom: madrun v13.0.0
+- 29204de wisdom: eslint-plugin-putout v31.0.0
+- 6fd737b wisdom: rendy v5.0.0
+- 0f907e0 wisdom: eslint v10.0.0
+
 2026.02.05, v17.2.1
 
 fix:
